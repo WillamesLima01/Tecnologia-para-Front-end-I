@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão1</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    
+    <h1 id="nomecabecalho"><b>Ficha de Cadastro</b></h1>
+
+    <form autocomplete="on" target="_blank">
+        Nome :  <input type="text" name="nome" id="nome" ><br><br>
+        RG   :  <input type="text" name="RG" id="rg">
+        CPF :   <input type="text" name="CPF" id="cpf"><br><br>
+        Endereço : <input type="text" name="endereço" id="endereco"><br><br>
+        Sexo : <input type="text" name="sexo" id="sexo">
+        Data Nascimento : <input type="date" name="Data nascimento" id="nascimento"><br>               
+    </form>
+    <form method="get"><br>
+        Situação Civil
+        <input type="radio" name="estadocivil" checked/> Solteiro
+        <input type="radio" name="estadocivil"/> Casado 
+        <input type="radio" name="estadocivil"/> Viúvo 
+    </form>  
+    <input type="submit" value="Limpar Dados" />
 </body>
 </html>
