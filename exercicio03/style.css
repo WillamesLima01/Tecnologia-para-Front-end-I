@@ -1,0 +1,27 @@
+#nomecabecalho{
+    margin-left: 280px;
+}
+
+#nome{
+    width: 600px;
+    margin-left: 20px;
+}
+#rg{
+    margin-left: 38px;
+    width: 280px;
+}
+#cpf{
+    margin-left: 18px;
+    width: 250px;
+}
+#endereco{
+    width: 600px;
+}
+#sexo{
+    margin-left: 30px;
+    width: 280px;
+}
+#nascimento{
+    margin-left: 4px;
+    width: 180px;
+}
