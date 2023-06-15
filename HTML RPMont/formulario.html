@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Cadastro equino</h1>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="registro"> <strong>Registro</strong></label>
+                <input type="text" name="registro" id="registro" required>
+            </div>
+
+            <div class="campo">
+                <label for="raca"><strong>Raça</strong></label>
+                <input type="text" name="raca" id="raca" required>
+            </div>
+
+            <div class="campo">
+                <label for="nascimento"><strong>Nascimento</strong></label>
+                <input type="date" name="nascimento" id="nascimento" required>
+            </div>
+
+            <div class="campo">
+                <label for="inclusao"><strong>Inclusão</strong></label>
+                <input type="text" name="inclusao" id="inclusao" required>
+            </div>
+
+            <div class="campo">
+                <label for="pelagem"><strong>Tipo Pelagem</strong></label>
+                <input type="text" name="pelagem" id="pelagem" required>
+            </div>
+
+            <div class="campo">
+                <label for="sexo"><strong>Sexo</strong></label>
+                <select id="sexo">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Macho</option>
+                    <option>Fêmea</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="situacao"><strong>Situação</strong></label>
+                <select id="situacao">
+                    <option selected disabled value="">Selecione</option>
+                    <option>apto</option>
+                    <option>inapto</option>
+                    <option>inválido</option>
+                </select>
+            </div>            
+
+        </fieldset>
+                
+        <div>
+            <br>
+            <label><strong>Resenha descritiva</strong></label><br>
+            <textarea row="30" style="width: 850px; height: 100px; resize: none" id="resenha" name="resenha"></textarea>            
+            <button type="submit" class="botaoimagem">anexar imagem</button>
+        </div>
+
+        <button type="submit" class="botao">salvar</button>
+        <button type="submit" class="botao">editar</button>
+        <button type="submit" class="botao">excluir</button>
+        <button type="submit" class="botao">limpar</button>
+    </form>
+</body>
+</html>
